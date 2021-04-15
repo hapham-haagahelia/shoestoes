@@ -1,0 +1,323 @@
+* {
+    box-sizing:border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Nav bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    
+}
+.brand-title {
+    font-size: 2rem;
+    margin: 1rem 2.5rem;
+    font-family: cursive;
+    color: black;
+}
+.navbar span{
+    color: lightcoral;
+}
+
+.navbar-link {
+    margin-right: 2.5rem;
+}
+.navbar-link ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.navbar-link li{
+    list-style: none;
+}
+.navbar-link li a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 1.5rem;
+    display:block;
+    font-size: 1.2rem;
+}
+
+.navbar-link li:hover{
+    background-color: rgb(247, 235, 235);
+    opacity: 0.9;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 90%;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+/* End navbar */
+/* Abous Us */
+#about{
+    margin: 80px 80px;
+}
+
+#about .about-top {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+#about .about-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color:lightcoral;
+    margin-bottom: 10px;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+#about ul{
+    padding: 0 50px;
+    
+}
+#about li{
+    float: left;
+    width: 46%;
+    margin: 2%;
+    list-style-type: none; 
+    text-align: center;
+}
+
+#about li img{
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10px;
+
+}
+
+#about p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: rgb(80, 78, 78);
+    text-align: center;
+}
+
+#about ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* End About Us  */
+
+/* Team */
+#team{
+    margin: 50px 100px;
+}
+
+#team .team-top {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+#team .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: lightcoral;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1.5px solid lightcoral;
+    border-radius: 2px;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+}
+#team .team-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color:lightcoral;
+    margin-bottom: 10px;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+#team .team-top p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: rgb(80, 78, 78);
+    text-align: center;
+}
+#team ul{
+    padding: 0;
+    align-items: center;
+    
+}
+
+#team li{
+    float: left;
+    width: 29%;
+    margin: 2%;
+    list-style-type: none; 
+    text-align: center;
+}
+
+#team li img{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+
+}
+
+#team li a{
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+#team li h2{
+    font-size: 2rem;
+    color: lightcoral;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+#team li p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: rgb(80, 78, 78);
+    text-align: center;
+}
+
+#team ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* End Team section */
+
+/* footer*/
+footer {
+	background-color: cornsilk;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(80, 78, 78);
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+/* End Footer */
+
+@media only screen and (max-width: 768px) {
+    /*navbar */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-link {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-link ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-link ul li {
+        text-align: center;
+    }
+    .navbar-link li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-link.active {
+        display: flex;
+    }
+    /* End nav bar*/
+
+    /* Media About Us */
+    #about{
+        margin: 50px 10px;
+    }
+    #about .about-title {
+        font-size: 2rem;
+    }
+    #about li{
+        width: 92%;
+        margin: 2%;
+        list-style-type: none; 
+        text-align: center;
+    }
+
+    #about li h2{
+        font-size: 1.5rem;
+    }
+    #about li p {
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        color: rgb(80, 78, 78);
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: seashell;
+        width: 80%;
+        line-height: 3.5rem;
+    }
+    /* End About section */
+    /* Meet out team Media */
+    #team{
+        margin: 50px 10px;
+    }
+    #team .team-title {
+        font-size: 2rem;
+    }
+    #team li{
+        width: 92%;
+        margin: 2%;
+        list-style-type: none; 
+        text-align: center;
+    }
+
+    #team li h2{
+        font-size: 1.5rem;
+    }
+    #team li p {
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        color: rgb(80, 78, 78);
+        text-align: center;
+    }
+    #team li img{
+        width: 50%;
+        height: 100%;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    
+    }
+    
+    /* End Media Meet Our Team*/
+}

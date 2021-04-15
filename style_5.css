@@ -1,0 +1,232 @@
+* {
+    box-sizing:border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Nav bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    
+}
+.brand-title {
+    font-size: 2rem;
+    margin: 1rem 2.5rem;
+    font-family: cursive;
+    color: black;
+}
+.navbar span{
+    color: lightcoral;
+}
+
+.navbar-link {
+    margin-right: 2.5rem;
+}
+.navbar-link ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.navbar-link li{
+    list-style: none;
+}
+.navbar-link li a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 1.5rem;
+    display:block;
+    font-size: 1.2rem;
+}
+
+.navbar-link li:hover{
+    background-color: rgb(247, 235, 235);
+    opacity: 0.9;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 90%;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+/* End navbar */
+
+/* Contact form */
+/* Main Section */
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+}
+
+.contact-item {
+    width: 80%;
+    margin: 50px 0px 50px 50px;
+    text-align: left;
+}
+
+.contact-item h2{
+    font-size: 3rem;
+    font-weight: 300;
+    color:lightcoral;
+    letter-spacing: .05rem;
+    margin-left: 40px;
+}
+
+.contact-item h3{
+    font-size: 2rem;
+    color: rgb(80, 78, 78);
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+
+}
+.contact-item p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: rgb(80, 78, 78);
+    text-align: left;
+}
+
+
+.map-item {
+    width: 80%;
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+/* End Main Section */
+
+/* footer*/
+footer {
+	background-color: cornsilk;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(80, 78, 78);
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+/* End Footer */
+@media only screen and (max-width: 768px) {
+    /*navbar */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-link {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-link ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-link ul li {
+        text-align: center;
+    }
+    .navbar-link li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-link.active {
+        display: flex;
+    }
+    /* End nav bar*/
+    /* Schedule */
+    section {
+        flex-wrap: wrap;
+    }
+    .contact-item h2{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .contact-item h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .schedule-item p{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    /*navbar */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-link {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-link ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-link ul li {
+        text-align: center;
+    }
+    .navbar-link li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-link.active {
+        display: flex;
+    }
+    /* End nav bar*/
+    /* Schedule */
+    section {
+        flex-wrap: wrap;
+    }
+    .contact-item h2{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .contact-item h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .schedule-item p{
+        text-align: center;
+    }
+
+}
