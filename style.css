@@ -298,7 +298,7 @@ footer p {
     #featured{
         margin: 50px 10px;
     }
-    #featured .feature-title {
+    #featured .feature-title, .booking-title {
         font-size: 2rem;
     }
     #featured li{
