@@ -51,9 +51,8 @@ body {
 }
 
 .navbar-link li:hover{
-    color: lightcoral;
-    text-decoration: underline;
-    opacity: 0.8;
+    background-color: rgb(247, 235, 235);
+    opacity: 0.9;
 
 }
 
