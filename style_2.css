@@ -227,6 +227,10 @@ body {
     padding: 20px 15px;
 }
 
+#news .under-content h3{
+    font-family:sans-serif;
+}
+
 #news .under-content p{
     font-size: 1rem;
     font-weight: 300;
