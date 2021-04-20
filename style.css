@@ -108,14 +108,14 @@ body {
 .banner {
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 10%;
 }
 .banner h1 {
-    font-size: 3.5rem;
-    font-weight: 300;
+    font-size: 4.5rem;
+    font-weight: 550;
     color: seashell;
     width: 60%;
-    line-height: 4rem;
+    line-height: 6rem;
 }
 /*End hero section*/
 /* Features */
@@ -193,6 +193,7 @@ body {
     line-height: 1.8rem;
     color: rgb(80, 78, 78);
     text-align: center;
+    padding: 0px 25px;
 }
 
 #featured ul:after{
@@ -208,17 +209,12 @@ body {
 }
 
 #booking .booking-top {
-    max-width: 600px;
+    max-width: 750px;
     margin: 0 auto;
     text-align: center;
 
 }
 
-#booking .booking-top:after{
-    content: "";
-    display: block;
-    clear: both;
-}
 #booking .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -298,8 +294,16 @@ footer p {
     #featured{
         margin: 50px 10px;
     }
-    #featured .feature-title, .booking-title {
+    #featured .feature-title{
         font-size: 2rem;
+    }
+
+    #booking .booking-title {
+        font-size: 2rem;
+    }
+
+    #booking p{
+        font-size: 1rem;
     }
     #featured li{
         width: 92%;

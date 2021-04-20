@@ -88,41 +88,46 @@ body {
     font-weight: 300;
     color:lightcoral;
     margin-bottom: 10px;
-    letter-spacing: .05rem;
+    letter-spacing: .1rem;
     text-align: center;
 }
-#about ul{
-    padding: 0 50px;
-    
-}
-#about li{
-    float: left;
-    width: 46%;
-    margin: 2%;
-    list-style-type: none; 
-    text-align: center;
+#about .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    margin-top: 100px;
 }
 
-#about li img{
-    width: 90%;
-    height: 100%;
-    margin-bottom: 10px;
-
-}
-
-#about p {
+.content-2 .para{
     font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: rgb(80, 78, 78);
+    margin-top: 10px;
+}
+
+.content-2 .detail{
+    font-weight: bold;
+    color:  black;
+    margin-top: 10px;
+}
+
+
+.about-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-top p{
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.8rem;
     color: rgb(80, 78, 78);
     text-align: center;
 }
 
-#about ul:after{
-    content: "";
-    display: block;
-    clear: both;
-}
+
 /* End About Us  */
 
 /* Team */
@@ -262,23 +267,26 @@ footer p {
     #about .about-title {
         font-size: 2rem;
     }
-    #about li{
-        width: 92%;
-        margin: 2%;
-        list-style-type: none; 
+
+    #about .about-top {
+        max-width: 80%;
+    }
+    #about p{
+        font-size: 1rem;
         text-align: center;
+    }
+    
+    .content-2 .para{
+        font-size: 1rem;
+        text-align: center;
+    }
+    #about .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin-top: 100px;
     }
 
-    #about li h2{
-        font-size: 1.5rem;
-    }
-    #about li p {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        color: rgb(80, 78, 78);
-        text-align: center;
-    }
     .banner h1 {
         font-size: 2.5rem;
         font-weight: 300;
