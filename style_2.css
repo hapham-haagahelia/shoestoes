@@ -265,7 +265,7 @@ footer p {
 }
 /* End Footer */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     /*navbar */
     .toggle-button {
         display: flex;
@@ -291,7 +291,6 @@ footer p {
     .navbar-link.active {
         display: flex;
     }
-}
     /* End nav bar*/
 
     /* Hero section*/
@@ -380,7 +379,6 @@ footer p {
     grid-template-columns: 1fr;
 }
 
-
 #news .under-content p{
     font-size: 1rem;
 }
@@ -389,11 +387,4 @@ footer p {
     padding: 8px 12px;
     font-size: .9rem;
 }
-
-@media only screen and (orientation: landscape) {
-    .program-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
 }
