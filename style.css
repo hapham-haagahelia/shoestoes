@@ -259,7 +259,7 @@ footer p {
     letter-spacing: .05rem;
 }
 /* End Footer */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     /*navbar */
     .toggle-button {
         display: flex;
