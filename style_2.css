@@ -265,7 +265,7 @@ footer p {
 }
 /* End Footer */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     /*navbar */
     .toggle-button {
         display: flex;
@@ -336,7 +336,7 @@ footer p {
 
 .program-content img{
     width: 100%;
-    height: 40vh;
+    height: 100%;
 }
 
 .list {
@@ -386,5 +386,6 @@ footer p {
 #news .under-content .cta{
     padding: 8px 12px;
     font-size: .9rem;
+
 }
 }
