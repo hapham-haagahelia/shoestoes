@@ -194,7 +194,7 @@ body {
     text-align: center;
 }
 
-#team li h2{
+#team li h3{
     font-size: 2rem;
     color: lightcoral;
     margin-bottom: 10px;
@@ -309,7 +309,7 @@ footer p {
         text-align: center;
     }
 
-    #team li h2{
+    #team li h3{
         font-size: 1.5rem;
     }
     #team li p {

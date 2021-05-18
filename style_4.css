@@ -136,7 +136,7 @@ section {
     text-align: left;
 }
 
-.schedule-item h2{
+.schedule-item h3{
     font-size: 3rem;
     font-weight: 300;
     color:lightcoral;
@@ -167,7 +167,7 @@ section {
     text-align: left;
 }
 
-.price-item h2{
+.price-item h3{
     font-size: 3rem;
     font-weight: 300;
     color:lightcoral;
@@ -239,7 +239,7 @@ footer p {
     section {
         flex-wrap: wrap;
     }
-    .schedule-item h2{
+    .schedule-item h3{
         font-size: 2.2rem;
         text-align: center;
     }
@@ -250,7 +250,7 @@ footer p {
     .schedule-item p{
         text-align: center;
     }
-    .price-item h2{
+    .price-item h3{
         font-size: 2.2rem;
         text-align: center;
     }

@@ -91,7 +91,7 @@ section {
     text-align: left;
 }
 
-.contact-item h2{
+.contact-item h3{
     font-size: 3rem;
     font-weight: 300;
     color:lightcoral;
@@ -172,7 +172,7 @@ footer p {
     section {
         flex-wrap: wrap;
     }
-    .contact-item h2{
+    .contact-item h3{
         font-size: 2.2rem;
         text-align: center;
     }
@@ -217,7 +217,7 @@ footer p {
     section {
         flex-wrap: wrap;
     }
-    .contact-item h2{
+    .contact-item h3{
         font-size: 2.2rem;
         text-align: center;
     }
